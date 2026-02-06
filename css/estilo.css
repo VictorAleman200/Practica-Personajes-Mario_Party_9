@@ -56,7 +56,7 @@ main {
     background-color: rgb(172, 105, 68);
     margin: 0 auto;
 
-    background-image: url(../IMGS/fondomarioparty9.jpg);
+    background-image: url(../imgs/fondomarioparty9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -91,7 +91,7 @@ main {
 .info {
     width: 800px;
     height: 400px;
-    background-color: #ffcc0091;
+    background-color: #ffcc00be;
     float: left;
     margin-left: 33px;
     padding: 30px;
@@ -99,13 +99,14 @@ main {
 }
 
 .info h3 {
-    margin: 20px 0;
+    margin: 15px 0;
     font-size: 1.8rem;
     color: #198651;
 }
 
 .info p {
     color: #279DE5;
+
 }
 
 .text-link {
@@ -134,7 +135,8 @@ footer a {
 }
 
 footer a:hover {
-    text-shadow: 2px 2px 3px #000000;
+    text-shadow: 1px 1px 2px #000000;
+    transform: scale(1.3);
 }
 
 footer p {
