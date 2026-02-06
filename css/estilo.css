@@ -1,0 +1,142 @@
+* {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* No le van a sumar pixeles al tamaño, se va a ajustar el padding */
+}
+
+
+
+header {
+    width: 1366px;
+    height: 150px; /* Maximo de 200px, comun entre 50px a 70px */
+    background-color: #D10000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header img {
+    height: 95%;
+    padding: 20px 0;
+}
+
+nav {
+    width: 1366px;
+    height: 50px; /* Entre 50 o 60 px (comun 50px) */
+    background-color: #002E8C;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+
+nav a {
+    font-family: "Indie Flower", cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    background-color: #279DE5;
+    transform: scale(1.2);
+    box-shadow: 2px 2px 3px rgb(25, 25, 25);
+}
+
+main {
+    width: 1366px;
+    height: 2000px;
+    background-color: rgb(172, 105, 68);
+    margin: 0 auto;
+
+    background-image: url(../IMGS/fondomarioparty9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.personaje {
+    width: 1300px;
+    height: 400px;
+    /*background-color: rgb(236, 246, 236);*/
+    margin-left: 33px;
+    margin-top: 80px;
+
+    display: inline-block;
+}
+
+.foto {
+    width: 400px;
+    height: 400px;
+    /*background-color: blue;*/
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    border-bottom: 4px dotted #FFCC00;
+}
+
+.foto img {
+    height: 100%; /* Es un comentario en CSS */
+
+}
+
+.info {
+    width: 800px;
+    height: 400px;
+    background-color: #ffcc0091;
+    float: left;
+    margin-left: 33px;
+    padding: 30px;
+    border-bottom: 4px dotted #198651;
+}
+
+.info h3 {
+    margin: 20px 0;
+    font-size: 1.8rem;
+    color: #198651;
+}
+
+.info p {
+    color: #279DE5;
+}
+
+.text-link {
+    text-decoration: none;
+    color: #002E8C;
+    font-weight: 900;
+}
+
+footer {
+    width: 1366px;
+    height: 200px;
+    background-color: #198651;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d100009d;
+    font-weight: 900;
+    padding: 15px 20px;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    text-shadow: 2px 2px 3px #000000;
+}
+
+footer p {
+    color: #279DE5;
+}
