@@ -1,3 +1,14 @@
+/*
+#00369a azul fuerte
+#0050c3 azul claro
+#128e16 verde claro
+#007109 verde fuerte
+#d60137 rojo
+#ee9d82 crema
+#a9523e cafe
+#4f4d5b gris
+*/
+
 * {
     font-family: "Nunito", sans-serif;
     font-size: 16px;
@@ -5,28 +16,6 @@
     padding: 0;
     box-sizing: border-box; /* No le van a sumar pixeles al tamaño, se va a ajustar el padding */
 }
-
-
-:root {
-    --azul-fuerte: #00369a;
-    --azul-delgado: #0050c3;
-    --verde-claro: #128e16;
-    --verde-fuerte: #007109;
-    --rojo: #d60137;
-    --crema: #ee9d82;
-    --cafe: #a9523e;
-    --gris: #4f4d5b;
-}
-/*
-#00369a
-#0050c3
-#128e16
-#007109
-#d60137
-#ee9d82
-#a9523e
-#4f4d5b
-*/
 
 header {
     width: 1366px;
@@ -134,8 +123,13 @@ main {
 
 .text-link {
     text-decoration: none;
-    color: var(--gris);
+    color: #4f4d5b;
     font-weight: 600;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+    color: #a9523e;
 }
 
 .text-link-start {
