@@ -31,7 +31,7 @@
 header {
     width: 1366px;
     height: 150px; /* Maximo de 200px, comun entre 50px a 70px */
-    background-color: var(--azul-fuerte);
+    background-color: #00369a;
     margin: 0 auto;
     text-align: center;
 }
@@ -44,7 +44,7 @@ header img {
 nav {
     width: 1366px;
     height: 50px; /* Entre 50 o 60 px (comun 50px) */
-    background-color: var(--azul-delgado);
+    background-color: #0050c3;
 
     display: flex;
     justify-content: space-evenly;
@@ -73,7 +73,7 @@ nav a:hover {
 main {
     width: 1366px;
     height: 2000px;
-    background-color: rgb(172, 105, 68);
+    /* background-color: rgb(172, 105, 68); */
     margin: 0 auto;
 
     background-image: url(../imgs/fondomarioparty9.jpg);
@@ -86,7 +86,7 @@ main {
 .personaje {
     width: 1300px;
     height: 400px;
-    /*background-color: rgb(236, 246, 236);*/
+    /* background-color: rgb(236, 246, 236); */
     margin-left: 33px;
     margin-top: 80px;
 
@@ -96,7 +96,7 @@ main {
 .foto {
     width: 400px;
     height: 400px;
-    /*background-color: blue;*/
+    /* background-color: blue; */
     float: left;
     margin-left: 33px;
     text-align: center;
@@ -115,19 +115,20 @@ main {
     float: left;
     margin-left: 33px;
     padding: 30px;
-    border-bottom: 4px dotted #198651;
+    border-bottom: 4px dotted #128e16;
     text-align: center;
 }
 
 .info h3 {
     margin: 15px 0;
     font-size: 1.8rem;
-    color: var(--verde-claro);
-    font-weight: 600;
+    color: #007109;
+    font-weight: 700;
 }
 
 .info p {
-    color: var(--rojo);
+    color: #d60137;
+    font-weight: 400;
 
 }
 
@@ -138,9 +139,9 @@ main {
 }
 
 .text-link-start {
-    background-color: var(--rojo);
+    background-color: #d601369d;
     text-decoration: none;
-    color: var(--azul-delgado);
+    color: #0050c3;
     font-weight: 900;
     border-radius: 10px;
     padding: 5px 10px;
@@ -154,7 +155,7 @@ main {
 footer {
     width: 1366px;
     height: 300px; /* 200px*/
-    background-color: var(--cafe);
+    background-color: #a9523ed6;
     margin: 0 auto;
     padding: 20px;
 
@@ -162,25 +163,28 @@ footer {
 
 footer img {
     height: 50px;
+    margin-bottom: 5px;
 }
 
 footer a {
     display: block;
     padding-top: 10px;
+    padding-bottom: 5px;
     text-decoration: none;
-    color: var(--azul-fuerte);
+    color: #00369a;
     font-weight: 900;
     
     transition: 0.5s;
 }
 
 footer a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
     text-shadow: 1px 1px 2px #000000;
-    font-size: 1.2rem;
-    color: #00369a;
+    font-size: 1.3rem;
+    color: #0050c3;
 }
 
 footer p {
     color: #0050c3;
+    margin-top: 20px;
 }
